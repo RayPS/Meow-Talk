@@ -10,29 +10,50 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-
-    @IBOutlet var buttons: [UIButton]!
-
-    var audioPlayer = AVAudioPlayer()
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.layer.cornerRadius = 8
     }
-    
-    
-//    func playSound(_ fileName:String, button:DesignableButton){
-//        var alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: filename, ofType: "wav")!)
-//        var error:NSError?
-//        audioPlayer = AVAudioPlayer(contentsOfURL: alertSound, error: &error)
-//        audioPlayer.prepareToPlay()
-//        audioPlayer.play()
-//    }
-
-    @IBAction func tapped(_ sender: UIButton) {
-    }
-
-
-
-
 }
+
+
+class meowButton: UIButton {
+
+    var player: AVAudioPlayer
+
+    @IBInspectable public var soundID: String! {
+        didSet {
+            do {
+                let url = Bundle.main.url(forResource: soundID, withExtension: "wav")!
+                player = try AVAudioPlayer(contentsOf: url)
+                print(player)
+            } catch {
+                print("error")
+            }
+        }
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        player = AVAudioPlayer()
+        super.init(coder: aDecoder)
+        addTarget(self, action: #selector(self.down), for: .touchDown)
+        addTarget(self, action: #selector(self.up), for: .touchUpInside)
+        addTarget(self, action: #selector(self.up), for: .touchUpOutside)
+    }
+
+
+    func down() {
+        UIView.animate(withDuration: 0.1, delay: 0, options: .allowUserInteraction, animations: {
+            self.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
+        }, completion: nil)
+//        player.currentTime = 0 //😂😂😂
+        player.play()
+    }
+
+    func up() {
+        UIView.animate(withDuration: 0.25, delay: 0, options: .allowUserInteraction, animations: {
+            self.transform = CGAffineTransform.identity
+        }, completion: nil)
+    }
+}
+
