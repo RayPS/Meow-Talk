@@ -36,6 +36,9 @@
                                                 <state key="normal" backgroundImage="cat_grumpy.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EIK-76-yhx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGn-B8-Nnf" userLabel="Button 4">
                                                 <rect key="frame" x="0.0" y="114" width="82.5" height="82.5"/>
@@ -167,6 +170,20 @@
                             <constraint firstItem="ulc-fg-4ID" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qWI-qw-ldZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="buttons" destination="AJ0-3a-KLv" collectionClass="NSMutableArray" id="S3C-oL-71q"/>
+                        <outletCollection property="buttons" destination="7ok-BU-Byn" collectionClass="NSMutableArray" id="ZPC-gH-FJR"/>
+                        <outletCollection property="buttons" destination="MFR-Q6-xxv" collectionClass="NSMutableArray" id="rcr-ie-Lp9"/>
+                        <outletCollection property="buttons" destination="eGn-B8-Nnf" collectionClass="NSMutableArray" id="Qbk-a6-Py4"/>
+                        <outletCollection property="buttons" destination="8p9-cx-jGe" collectionClass="NSMutableArray" id="oGT-dw-fzv"/>
+                        <outletCollection property="buttons" destination="L0F-Wg-csn" collectionClass="NSMutableArray" id="KYK-vn-wcp"/>
+                        <outletCollection property="buttons" destination="h81-zf-qJi" collectionClass="NSMutableArray" id="8QO-Uc-uIO"/>
+                        <outletCollection property="buttons" destination="w1b-Gv-mhT" collectionClass="NSMutableArray" id="HJP-Dh-H2z"/>
+                        <outletCollection property="buttons" destination="Ig3-IP-Dc5" collectionClass="NSMutableArray" id="7ge-xR-cvI"/>
+                        <outletCollection property="buttons" destination="18G-S4-M5T" collectionClass="NSMutableArray" id="zRE-OX-Rxo"/>
+                        <outletCollection property="buttons" destination="f8o-IY-0ji" collectionClass="NSMutableArray" id="xZG-HD-5zz"/>
+                        <outletCollection property="buttons" destination="nuU-hv-YgN" collectionClass="NSMutableArray" id="f9k-sP-uKf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

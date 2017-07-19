@@ -11,7 +11,9 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    let audioPlayer = AVAudioPlayer()
+    @IBOutlet var buttons: [UIButton]!
+
+    var audioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,13 +21,18 @@ class ViewController: UIViewController {
     }
     
     
-    func playSound(filename:String, button:DesignableButton){
-        var alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(filename, ofType: "wav")!)
-        var error:NSError?
-        audioPlayer = AVAudioPlayer(contentsOfURL: alertSound, error: &error)
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
+//    func playSound(_ fileName:String, button:DesignableButton){
+//        var alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: filename, ofType: "wav")!)
+//        var error:NSError?
+//        audioPlayer = AVAudioPlayer(contentsOfURL: alertSound, error: &error)
+//        audioPlayer.prepareToPlay()
+//        audioPlayer.play()
+//    }
+
+    @IBAction func tapped(_ sender: UIButton) {
     }
+
+
 
 
 }
