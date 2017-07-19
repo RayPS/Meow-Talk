@@ -41,9 +41,6 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bhv-t3-UvL"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGn-B8-Nnf" userLabel="Button 4">
                                                 <rect key="frame" x="0.0" y="114" width="82.5" height="82.5"/>
@@ -61,9 +58,6 @@
                                                         <real key="value" value="0.10000000000000001"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7J6-qK-IzW"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h81-zf-qJi" userLabel="Button 7">
                                                 <rect key="frame" x="0.0" y="228.5" width="82.5" height="82.5"/>
@@ -81,9 +75,6 @@
                                                         <real key="value" value="0.20000000000000001"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ms8-u2-K1M"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18G-S4-M5T" userLabel="Button 10">
                                                 <rect key="frame" x="0.0" y="343" width="82.5" height="82"/>
@@ -101,9 +92,6 @@
                                                         <real key="value" value="0.29999999999999999"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="89F-OF-fll"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=regular" spacing="80"/>
@@ -127,9 +115,6 @@
                                                         <real key="value" value="0.10000000000000001"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ec4-yb-OG6"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8p9-cx-jGe" userLabel="Button 5">
                                                 <rect key="frame" x="0.0" y="114" width="82" height="82.5"/>
@@ -147,9 +132,6 @@
                                                         <real key="value" value="0.20000000000000001"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dFE-jV-9o4"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1b-Gv-mhT" userLabel="Button 8">
                                                 <rect key="frame" x="0.0" y="228.5" width="82" height="82.5"/>
@@ -167,9 +149,6 @@
                                                         <real key="value" value="0.29999999999999999"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lne-yL-utR"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8o-IY-0ji" userLabel="Button 11">
                                                 <rect key="frame" x="0.0" y="343" width="82" height="82"/>
@@ -187,9 +166,6 @@
                                                         <real key="value" value="0.40000000000000002"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_11:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KfC-hn-8pV"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=regular" spacing="80"/>
@@ -213,9 +189,6 @@
                                                         <real key="value" value="0.20000000000000001"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S9B-bK-aDi"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0F-Wg-csn" userLabel="Button 6">
                                                 <rect key="frame" x="0.0" y="114" width="82.5" height="82.5"/>
@@ -233,9 +206,6 @@
                                                         <real key="value" value="0.29999999999999999"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9W-nX-NRs"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ig3-IP-Dc5" userLabel="Button 9">
                                                 <rect key="frame" x="0.0" y="228.5" width="82.5" height="82.5"/>
@@ -253,9 +223,6 @@
                                                         <real key="value" value="0.40000000000000002"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H0K-yq-8tW"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuU-hv-YgN" userLabel="Button 12">
                                                 <rect key="frame" x="0.0" y="343" width="82.5" height="82"/>
@@ -273,9 +240,6 @@
                                                         <real key="value" value="0.5"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="meowButtonDidTouch_12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3y-Sh-ZPh"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=regular" spacing="80"/>
