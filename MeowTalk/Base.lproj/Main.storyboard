@@ -296,20 +296,6 @@
                             <constraint firstItem="ulc-fg-4ID" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qWI-qw-ldZ"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="meowButton_1" destination="AJ0-3a-KLv" id="ziP-tc-ej4"/>
-                        <outlet property="meowButton_10" destination="18G-S4-M5T" id="6Cr-ta-5JX"/>
-                        <outlet property="meowButton_11" destination="f8o-IY-0ji" id="vnp-fX-Xww"/>
-                        <outlet property="meowButton_12" destination="nuU-hv-YgN" id="7Ga-Tf-Z9O"/>
-                        <outlet property="meowButton_2" destination="7ok-BU-Byn" id="avy-Rf-qlJ"/>
-                        <outlet property="meowButton_3" destination="MFR-Q6-xxv" id="CtU-8H-uSj"/>
-                        <outlet property="meowButton_4" destination="eGn-B8-Nnf" id="vHT-Dt-9sf"/>
-                        <outlet property="meowButton_5" destination="8p9-cx-jGe" id="2cn-A9-Ksm"/>
-                        <outlet property="meowButton_6" destination="L0F-Wg-csn" id="Q2w-Hj-thB"/>
-                        <outlet property="meowButton_7" destination="h81-zf-qJi" id="WU2-th-vRC"/>
-                        <outlet property="meowButton_8" destination="w1b-Gv-mhT" id="whQ-k4-qm1"/>
-                        <outlet property="meowButton_9" destination="Ig3-IP-Dc5" id="o5b-Hn-YvX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
