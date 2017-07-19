@@ -26,7 +26,6 @@ class meowButton: UIButton {
             do {
                 let url = Bundle.main.url(forResource: soundID, withExtension: "wav")!
                 player = try AVAudioPlayer(contentsOf: url)
-                print(player)
             } catch {
                 print("error")
             }
