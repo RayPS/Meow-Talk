@@ -36,11 +36,6 @@
                                                 <state key="normal" backgroundImage="cat_grumpy.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGn-B8-Nnf" userLabel="Button 4">
                                                 <rect key="frame" x="0.0" y="114" width="82.5" height="82.5"/>
@@ -50,14 +45,6 @@
                                                 <state key="normal" backgroundImage="cat_fight.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.10000000000000001"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h81-zf-qJi" userLabel="Button 7">
                                                 <rect key="frame" x="0.0" y="228.5" width="82.5" height="82.5"/>
@@ -67,14 +54,6 @@
                                                 <state key="normal" backgroundImage="cat_hungry.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.20000000000000001"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18G-S4-M5T" userLabel="Button 10">
                                                 <rect key="frame" x="0.0" y="343" width="82.5" height="82"/>
@@ -84,14 +63,6 @@
                                                 <state key="normal" backgroundImage="cat_sleep.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.29999999999999999"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=regular" spacing="80"/>
@@ -107,14 +78,6 @@
                                                 <state key="normal" backgroundImage="cat_eyes.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.10000000000000001"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8p9-cx-jGe" userLabel="Button 5">
                                                 <rect key="frame" x="0.0" y="114" width="82" height="82.5"/>
@@ -124,14 +87,6 @@
                                                 <state key="normal" backgroundImage="cat_cart.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.20000000000000001"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1b-Gv-mhT" userLabel="Button 8">
                                                 <rect key="frame" x="0.0" y="228.5" width="82" height="82.5"/>
@@ -141,14 +96,6 @@
                                                 <state key="normal" backgroundImage="cat_purr.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.29999999999999999"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8o-IY-0ji" userLabel="Button 11">
                                                 <rect key="frame" x="0.0" y="343" width="82" height="82"/>
@@ -158,14 +105,6 @@
                                                 <state key="normal" backgroundImage="cat_walk.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.40000000000000002"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=regular" spacing="80"/>
@@ -181,14 +120,6 @@
                                                 <state key="normal" backgroundImage="cat_fat.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.20000000000000001"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0F-Wg-csn" userLabel="Button 6">
                                                 <rect key="frame" x="0.0" y="114" width="82.5" height="82.5"/>
@@ -198,14 +129,6 @@
                                                 <state key="normal" backgroundImage="cat_hiss.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.29999999999999999"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ig3-IP-Dc5" userLabel="Button 9">
                                                 <rect key="frame" x="0.0" y="228.5" width="82.5" height="82.5"/>
@@ -215,14 +138,6 @@
                                                 <state key="normal" backgroundImage="cat_sing.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.40000000000000002"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuU-hv-YgN" userLabel="Button 12">
                                                 <rect key="frame" x="0.0" y="343" width="82.5" height="82"/>
@@ -232,14 +147,6 @@
                                                 <state key="normal" backgroundImage="cat_upsidedown.png">
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
-                                                        <real key="value" value="0.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                         </subviews>
                                         <variation key="heightClass=regular-widthClass=regular" spacing="80"/>
