@@ -41,7 +41,7 @@ class meowButton: UIButton {
     }
 
 
-    func down() {
+    @objc func down() {
         UIView.animate(withDuration: 0.1, delay: 0, options: .allowUserInteraction, animations: {
             self.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
         }, completion: nil)
@@ -49,7 +49,7 @@ class meowButton: UIButton {
         player.play()
     }
 
-    func up() {
+    @objc func up() {
         UIView.animate(withDuration: 0.25, delay: 0, options: .allowUserInteraction, animations: {
             self.transform = CGAffineTransform.identity
         }, completion: nil)
